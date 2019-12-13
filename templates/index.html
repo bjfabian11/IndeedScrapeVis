@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/style.css">
     <title>Indeed Scrape & Visualize</title>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <h2>Use this Python web application to web scrape Indeed job postings and create visualizations using keywords!</h2>
+
+    <div class="main_container">
+        <div class="header">
+            <h1>ScraphIT</h1>
+            <h2>Scrape Indeed job postings and create graphs from keywords!</h2>
+            <div class="main">
+                <form action="/action_page.php" target="_blank" method="POST">
+                    URL:<br>
+                    <input type="text" name="url" value="">
+                    <br>
+                    Keyword 1:<br>
+                    <input type="text" name="keyword_one" value="">
+                    <br>
+                    Keyword 2:<br>
+                    <input type="text" name="keyword_two" value="">
+                    <br>
+                    Keyword 3:<br>
+                    <input type="text" name="keyword_three" value="">
+                    <br>
+                    Keyword 4:<br>
+                    <input type="text" name="keyword_four" value="">
+                    <br>
+                    Keyword 5:<br>
+                    <input type="text" name="keyword_five" value="">
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>  
+    </div>
 </body>
 </html>
