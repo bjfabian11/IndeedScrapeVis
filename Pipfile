@@ -8,6 +8,7 @@ pylint = "*"
 
 [packages]
 flask = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
