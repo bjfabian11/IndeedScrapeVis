@@ -5,10 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+autopep8 = "*"
 
 [packages]
 flask = "*"
 requests = "*"
+bokeh = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.8"
