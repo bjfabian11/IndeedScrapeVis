@@ -1,11 +1,11 @@
 # IndeedScrapeVis
-Python web application to web scrape Indeed job postings and create visualizations using keywords
+Python web application accesses Indeed job postings and create visualizations using keywords
 
 Using Python, Flask, BeautifulSoup, and Bokeh visualizations
 
-This project I wanted to practice using Python, work with web scraping, and learn how to create visualization from data.
+This project I wanted to practice using Python, work with Indeed job postings, and learn how to create visualization from data.
 
-This application will have a webview of Indeed where you can run a general search, which will then be scraped into a CSV file.
+This application will have a webview of Indeed where you can run a general search, which will turn into a CSV file.
 
 From there the user can enter keywords and the application will count job postings with the keywords occurences in the CSV file.
 
