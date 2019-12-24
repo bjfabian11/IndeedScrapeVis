@@ -5,33 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../static/style.css">
-    <title>Indeed Scrape & Visualize</title>
+    <title>Indeed Search & Visualize</title>
 </head>
 <body>
 
     <div class="main_container">
         <div class="header">
             <h1>ScraphIT</h1>
-            <h2>Scrape Indeed job postings and create graphs from keywords!</h2>
+            <h2>Search Indeed job postings and create graphs from keywords!</h2>
             <div class="main">
-                <form action="/action_page.php" target="_blank" method="POST">
+                <form action="/scraphit" method="POST">
                     URL:<br>
-                    <input type="text" name="url" value="">
+                    <input type="text" name="searchUrl" value="">
                     <br>
                     Keyword 1:<br>
-                    <input type="text" name="keyword_one" value="">
+                    <input type="text" name="kword1" value="">
                     <br>
                     Keyword 2:<br>
-                    <input type="text" name="keyword_two" value="">
+                    <input type="text" name="kword2" value="">
                     <br>
                     Keyword 3:<br>
-                    <input type="text" name="keyword_three" value="">
+                    <input type="text" name="kword3" value="">
                     <br>
                     Keyword 4:<br>
-                    <input type="text" name="keyword_four" value="">
+                    <input type="text" name="kword4" value="">
                     <br>
                     Keyword 5:<br>
-                    <input type="text" name="keyword_five" value="">
+                    <input type="text" name="kword5" value="">
+                    <br>
+                    Keyword 6:<br>
+                    <input type="text" name="kword6" value="">
                     <br><br>
                     <input type="submit" value="Submit">
                 </form>
